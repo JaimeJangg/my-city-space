@@ -1,6 +1,7 @@
 import React from 'react'
 import SEO from '../components/seo'
 import SectionWave from '../components/sectionWave/sectionWave'
+import SectionWaveServices from '../components/sectionWaveServices/sectionWaveServices'
 import Wave from '../components/wave'
 import SectionInnovation from '../components/sectionInnovation/sectionInnovation'
 import SideBar from '../components/sideBar'
@@ -32,7 +33,7 @@ const IndexPage = () => (
       />
     {/* </div> */}
     <SectionWave 
-      image={require('../images/projects.jpeg')}
+      // image={require('../images/projects.jpeg')}
       title="Nuestros Proyectos..."
     />
     {/* <div className="cards"> */}
@@ -40,13 +41,13 @@ const IndexPage = () => (
         linkCard="Ver Proyectos"
       />
     {/* </div> */}
-    {/* <SectionWave 
-      image={require('../images/services.jpeg')}
+    <SectionWaveServices
+      // image={require('../images/services.jpeg')}
       title="Nuestros Servicios..."
       text="Estan hechos para que tus negocios, proyectos y tu gente sean un exito, siempre con
         el toque mas humano posible, nuestro equipo es tu equipo."
     />
-    <div className="cards">
+    {/* <div className="cards">
       <h2 className="interceptionCards">
         <div className="servicesBackground" />
         <div>
