@@ -5,23 +5,6 @@
     margin-bottom: 310px;
 }
 
-@media (max-width: 640px) {
-    .sectionGroup {
-        height: 820px;
-        margin-bottom: 0;
-    }
-
-    .containerSection {
-        height: 800px;
-        border-radius: 0; 
-    }
-
-    .imageCard {
-        height: 300px;
-        border-radius: 0;
-    }
-}
-
 .containerSection {
     width: 1000px;
     border-radius: 20px;
@@ -60,4 +43,31 @@
 .circlesContainer {
     position: absolute;
     width: 100%;
+}
+
+@media (max-width: 640px) {
+    .sectionGroup {
+        height: 820px;
+        margin-bottom: 0;
+    }
+
+    .containerSection {
+        height: 800px;
+        border-radius: 0; 
+    }
+
+    .imageCard {
+        height: 300px;
+        border-radius: 0;
+    }
+}
+
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+    .containerSection {
+        height: 900px;
+    }
+
+    .textCard {
+        padding: 10px 10px 10px 0px;
+    }
 }
