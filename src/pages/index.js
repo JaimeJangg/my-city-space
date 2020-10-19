@@ -5,7 +5,7 @@ import Wave from '../components/wave'
 import SectionInnovation from '../components/sectionInnovation/sectionInnovation'
 import SideBar from '../components/sideBar'
 import Layout from '../components/layout'
-// import ProjectCard from '../components/projectCard'
+import CardsProjects from '../components/cardsProjects/cardsProjects'
 
 //images
 import logo from '../images/mcs014.png'
@@ -35,15 +35,11 @@ const IndexPage = () => (
       image={require('../images/projects.jpeg')}
       title="Nuestros Proyectos..."
     />
-    {/* <div className="cards">
-      <h2 className="interceptionCards">
-        Estan hechos para que tus negocios, tu gente y nuestra gente crezca.
-      </h2>
-      <ProjectCard
-        image={require('../images/crece1.jpeg')}
+    {/* <div className="cards"> */}
+      <CardsProjects
         linkCard="Ver Proyectos"
       />
-    </div> */}
+    {/* </div> */}
     {/* <SectionWave 
       image={require('../images/services.jpeg')}
       title="Nuestros Servicios..."
