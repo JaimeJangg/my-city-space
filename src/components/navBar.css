@@ -1,0 +1,116 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    background: #486791;
+}
+
+.headerScrolled {
+    padding: 15px 0;
+    background: linear-gradient(104deg, #5198E3 100%, #9F7FE5 100%);
+}
+
+.headerGroup {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.header a {
+    color: white;
+    font-weight: 700;
+}
+
+.header button {
+    padding: 8px 20px;
+    font-size: 20px;
+    background: white;
+    color: gray;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.header button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+    transform: translateY(-3px);
+}
+
+/* .avatar {
+    height: 40px;
+    border-radius: 50%;
+    width: 50px;
+    background: url('../images/psegundoEmpleado.png');
+    background-color: white;
+    background-size: 70px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+} */
+
+@media (max-width: 640px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .headerGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .header a:nth-child(1) {
+        display: none;
+    }
+}
+
+@media (max-width: 2560px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .headerGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .header a:nth-child(4) {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .headerGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .header a:nth-child(1) {
+        display: none;
+    }
+}
+
+@media (max-width: 2560px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .headerGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .header a:nth-child(4) {
+        display: none;
+    }
+}
