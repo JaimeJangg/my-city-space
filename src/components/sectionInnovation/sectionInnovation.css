@@ -1,12 +1,28 @@
 .sectionGroup {
     height: 800px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
     margin-bottom: 310px;
 }
 
+.sectionTitle {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient(104deg, #5198E3 50%, #9F7FE5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .containerSection {
-    width: 1000px;
+    max-width: 1000px;
     border-radius: 20px;
     background: linear-gradient(209.21deg, rgb(200, 255, 222) 13.57%, rgb(53, 142, 239) 98.38%);
     position: relative;
@@ -44,6 +60,12 @@
     position: absolute;
     width: 100%;
 }
+
+/* @media (max-width: 720px) {
+    .sectionTitle {
+      flex-direction: column;
+    }
+} */
 
 @media (max-width: 640px) {
     .sectionGroup {

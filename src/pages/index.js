@@ -2,7 +2,7 @@ import React from 'react'
 import SEO from '../components/seo'
 // import SectionWave from '../components/sectionWave'
 import Wave from '../components/wave'
-import Section from '../components/sectionInnovation/section'
+import SectionInnovation from '../components/sectionInnovation/sectionInnovation'
 import SideBar from '../components/sideBar'
 import Layout from '../components/layout'
 // import ProjectCard from '../components/projectCard'
@@ -20,10 +20,9 @@ const IndexPage = () => (
       </div>
       <Wave />
     </div>
-    <h2 className="interceptionCards">Inovacion tecnologica para mejorar la vida de las sociedades.</h2>
     {/* <div className="cards"> */}
       {/* <h2 className="interceptionCards">Inovacion tecnologica para mejorar la vida de las sociedades.</h2> */}
-      <Section
+      <SectionInnovation
         title="Buscamos construir las estructuras del futuro."
         text="Sabemos que el rezago de las tecnologias del momento
           sorprende de manera inadecuada a los negocios y a las sociedades si no son utilizadas apropiadamente,

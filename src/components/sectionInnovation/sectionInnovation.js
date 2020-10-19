@@ -1,6 +1,6 @@
 import React from 'react'
 // import styled from 'styled-components'
-import './section.css'
+import './sectionInnovation.css'
 import Circles from '../circles'
 
 // const ImageCard = styled.div`
@@ -40,8 +40,9 @@ import Circles from '../circles'
 //     width: 100%;
 // `
 
-const Section = props => (
+const SectionInnovation = props => (
     <div className='sectionGroup'>
+        <h2 className="sectionTitle">Inovacion tecnologica para mejorar la vida de las sociedades.</h2>
         <div className='circlesContainer'>
             <Circles />
         </div>
@@ -53,4 +54,4 @@ const Section = props => (
     </div>
 )
 
-export default Section
+export default SectionInnovation
