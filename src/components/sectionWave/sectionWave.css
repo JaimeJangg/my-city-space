@@ -1,0 +1,62 @@
+.waveTop {
+    position: absolute;
+    width: 100%;
+    top: -6px;
+    transform: rotate(180deg);
+}
+
+.waveBottom {
+    position: absolute;
+    width: 100%;
+    bottom: -6px;
+}
+
+.sectionGroupWave {
+    background: url('../../images/projects.jpeg');
+    height: 800px;
+    margin-top: 300px;
+    background-size: cover;
+    background-position: 50% 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-rows: 300px auto;
+    grid-gap: 20px; */
+    position: relative;
+}
+
+/* .sectionTitleGroupWave {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-template-columns: 400px auto;
+    margin: 0 100px;
+    grid-gap: 00px;
+    grid-template-rows: auto 100%;
+} */
+
+.sectionTitleWave {
+    color: white;
+    backdrop-filter: blur(40px) saturate(120%) brightness(120%);
+    border-radius: 20px;
+    font-size: 60px;
+    margin: 0;
+    line-height: 1.2;
+    padding: 20px;
+}
+
+@media (max-width: 720px) {
+    .sectionTitleGroup {
+        /* grid-template-columns: 1fr;
+        grid-gap: 20px; */
+        margin: 10px 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    .sectionGroup {
+        height: 820px;
+        /* grid-gap: 20px; */
+    }
+}
