@@ -38,10 +38,10 @@ const Layout = ({ children }) => {
         ]}
       />
         <main>{children}</main>
-        <Footer data={data}>
+        {/* <Footer data={data}>
           Aplicacion construida por el equipo de My City Space Mexico.
           <a href="mailto:jaime_rueda10@hotmail.com"> Nuestro Email</a> para cualquier pregunta. © 2020 - Terms of Service - Privacy Policy
-        </Footer>
+        </Footer> */}
     </>
   )
 }
