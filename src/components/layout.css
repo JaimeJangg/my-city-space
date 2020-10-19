@@ -109,6 +109,12 @@ a {
   width: 500px;
 }
 
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+  .servicesBackground {
+    width: 100%;
+  }
+}
+
 .cardGroup {
   margin: 50px 40px 100px;
   display: grid;
