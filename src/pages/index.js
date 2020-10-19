@@ -1,12 +1,14 @@
 import React from 'react'
 import SEO from '../components/seo'
-import logo from '../images/mcs014.png'
 // import SectionWave from '../components/sectionWave'
 import Wave from '../components/wave'
-import Section from '../components/section'
+import Section from '../components/sectionInnovation/section'
 import SideBar from '../components/sideBar'
 import Layout from '../components/layout'
 // import ProjectCard from '../components/projectCard'
+
+//images
+import logo from '../images/mcs014.png'
 
 const IndexPage = () => (
   <Layout>
@@ -22,7 +24,6 @@ const IndexPage = () => (
     {/* <div className="cards"> */}
       {/* <h2 className="interceptionCards">Inovacion tecnologica para mejorar la vida de las sociedades.</h2> */}
       <Section
-        image={require('../images/innovation.jpeg')}
         title="Buscamos construir las estructuras del futuro."
         text="Sabemos que el rezago de las tecnologias del momento
           sorprende de manera inadecuada a los negocios y a las sociedades si no son utilizadas apropiadamente,

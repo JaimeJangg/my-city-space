@@ -1,0 +1,63 @@
+.sectionGroup {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 310px;
+}
+
+@media (max-width: 640px) {
+    .sectionGroup {
+        height: 820px;
+        margin-bottom: 0;
+    }
+
+    .containerSection {
+        height: 800px;
+        border-radius: 0; 
+    }
+
+    .imageCard {
+        height: 300px;
+        border-radius: 0;
+    }
+}
+
+.containerSection {
+    width: 1000px;
+    border-radius: 20px;
+    background: linear-gradient(209.21deg, rgb(200, 255, 222) 13.57%, rgb(53, 142, 239) 98.38%);
+    position: relative;
+}
+
+.imageCard {
+    background: url('../../images/innovation.jpeg');
+    background-size: cover;
+    background-position: 50% 100%;
+    width: 100%;
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.titleCard {
+    background: white;
+    margin: 50px 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textCard {
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+    margin: 0 0 20px 20px;
+}
+
+.circlesContainer {
+    position: absolute;
+    width: 100%;
+}
