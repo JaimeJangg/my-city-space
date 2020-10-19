@@ -24,6 +24,16 @@
     display: flex;
 }
 
+.sectionTitleCardsProjects {
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient(104deg, #5198E3 50%, #9F7FE5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .containerLinkCardsProjects {
     height: 100px;
     width: 100%;

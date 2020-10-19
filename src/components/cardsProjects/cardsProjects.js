@@ -69,7 +69,7 @@ import './cardsProjects.css'
 const CardsProjects = props => (
     <div className='sectionGroupCardsProjects'>
         <div className='containerSectionCardsProjects'>
-            <h2 className="interceptionCards">
+            <h2 className="sectionTitleCardsProjects">
                 Estan hechos para que tus negocios, tu gente y nuestra gente crezca.
             </h2>
             <div className="imageCardsProjects" >
