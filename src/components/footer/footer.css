@@ -1,0 +1,51 @@
+.footerGroup {
+    background: white;
+    padding: 50px 0;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.footerText {
+    font-weight: 600;
+    color: #486791;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.footerButton {
+    background: linear-gradient(209.21deg, rgb(200, 255, 222) -50%, rgb(53, 142, 239) 98.38%);
+    box-shadow: 0px 10px 20px rgba(101, 41, 255, 0.15);
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 16px 60px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    justify-self: center;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.footerButton:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    transform: translateY(-3px);
+}
+
+.linkGroupFooter {
+    width: 500px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.copyRightFooter {
+    color: #486791;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.linkFooterStyle {
+    justify-self: center;
+}
