@@ -47,14 +47,14 @@ const IndexPage = () => (
       text="Estan hechos para que tus negocios, proyectos y tu gente sean un exito, siempre con
         el toque mas humano posible, nuestro equipo es tu equipo."
     />
-    {/* <div className="cards">
-      <h2 className="interceptionCards">
+    {/* <div className="cards"> */}
+      <div className="interceptionCards">
         <div className="servicesBackground" />
         <div>
           Proximamente podras encontrar nuestro listado de servicios segun tu localilad.
         </div>
-      </h2>
-    </div> */}
+      </div>
+    {/* </div> */}
   </Layout>
 )
 
