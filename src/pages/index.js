@@ -3,7 +3,7 @@ import SEO from '../components/seo'
 import logo from '../images/mcs014.png'
 // import SectionWave from '../components/sectionWave'
 import Wave from '../components/wave'
-// import Section from '../components/section'
+import Section from '../components/section'
 import SideBar from '../components/sideBar'
 import Layout from '../components/layout'
 // import ProjectCard from '../components/projectCard'
@@ -19,8 +19,8 @@ const IndexPage = () => (
       <Wave />
     </div>
     <h2 className="interceptionCards">Inovacion tecnologica para mejorar la vida de las sociedades.</h2>
-    {/* <div className="cards">
-      <h2 className="interceptionCards">Inovacion tecnologica para mejorar la vida de las sociedades.</h2>
+    {/* <div className="cards"> */}
+      {/* <h2 className="interceptionCards">Inovacion tecnologica para mejorar la vida de las sociedades.</h2> */}
       <Section
         image={require('../images/innovation.jpeg')}
         title="Buscamos construir las estructuras del futuro."
@@ -30,8 +30,8 @@ const IndexPage = () => (
           de lo que implica esto y como meta lograr que las sociedades y negocios sean exitosos y utilicen las tecnologias
           de forma correcta."
       />
-    </div>
-    <SectionWave 
+    {/* </div> */}
+    {/* <SectionWave 
       image={require('../images/projects.jpeg')}
       title="Nuestros Proyectos..."
     />
