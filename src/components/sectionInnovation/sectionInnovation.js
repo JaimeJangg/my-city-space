@@ -42,13 +42,13 @@ import Circles from '../circles'
 
 const SectionInnovation = props => (
     <div className='sectionGroup'>
-        <h2 className="sectionTitle">Inovacion tecnologica para mejorar la vida de las sociedades.</h2>
+        <h2 className="sectionTitle">{props.title}</h2>
         <div className='circlesContainer'>
             <Circles />
         </div>
         <div className='containerSection'>
             <div className='imageCard'/>
-            <h3 className='titleCard'>{props.title}</h3>
+            <h3 className='titleCard'>{props.subTitle}</h3>
             <p className='textCard'>{props.text}</p>
         </div>
     </div>

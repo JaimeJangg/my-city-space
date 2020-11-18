@@ -29,7 +29,7 @@ class NavBar extends React.Component {
       <div className={this.state.hasScrolled ? 'header headerScrolled' : 'header'}>
         <div className="headerGroup">
           <Link to="/">Inicio</Link>
-          <Link to="/">Marcas</Link>
+          <Link to="/marcas">Marcas</Link>
             {/* <div className='avatar' /> */}
           {/* </Link> */}
           <Link to='/'><button>Contacto</button></Link>

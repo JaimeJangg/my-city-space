@@ -22,7 +22,8 @@ const IndexPage = () => (
       <Wave />
     </div>
       <SectionInnovation
-        title="Buscamos construir las estructuras del futuro."
+        title="Inovacion tecnologica para mejorar la vida de las sociedades."
+        subTitle="Buscamos construir las estructuras del futuro."
         text="Sabemos que el rezago de las tecnologias del momento
           sorprende de manera inadecuada a los negocios y a las sociedades si no son utilizadas apropiadamente,
           en ocaciones sin siquiera percatarse, nosotros queremos ayudarte a que poco a poco todos podamos darnos cuenta

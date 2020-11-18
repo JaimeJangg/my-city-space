@@ -74,7 +74,7 @@ const CardsProjects = props => (
             </h2>
             <div className="imageCardsProjects" >
                 <div className='containerLinkCardsProjects'>
-                    <h3 className='linkCardProjects'><Link to="/">{props.linkCard}</Link></h3>
+                    <h3 className='linkCardProjects'><Link to="/marcas">{props.linkCard}</Link></h3>
                 </div>
             </div>
         </div>
